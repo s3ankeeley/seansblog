@@ -1,13 +1,24 @@
+/* General Layout */
 $content-width: 800px;
-$main: #19CCAA;
+/* Fonts */
 $font-style: 'Open Sans', sans-serif;
+$font-raleway: 'Raleway', sans-serif;
+$font-playfair: 'Playfair Display', serif;
+$heading-font: 'Muli', sans-serif;
+$font-josefin: 'Josefin Slab', serif;
+/* Color */
 $font-color: #262626;
 $link-color: #425469;
+$main: #19CCAA;
 $link-hover-color: $main;
-$heading-font: 'Muli', sans-serif;
 $heading-font-color: #425469;
 $light: #E7EDF4;
 $header:  #1D1425;
+$brand-grey: #D7CDCC;
+$white: #FFFFFF;
+$brand-coral: #59656F;
+$brand-berry: #9C528B;
+$brand-gunmetal: #1D1E2C;
 
 *,
 *::before,
