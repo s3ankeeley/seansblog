@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	color: $font-color;
-	font-family: $font-style;
+	font-family: $font-playfair;
 	font-size: 1.1em;
 	line-height: 1.6;
 	-webkit-font-smoothing: antialiased;
@@ -11,16 +11,16 @@ h2,
 h3 {
 	font-weight: 600;
 	color: $heading-font-color;
-	font-family: $heading-font;
+	font-family: $font-playfair;
 	line-height: 1.5;
 }
 h1 {
-	color: $main;
+	color:$brand-coral;
 	font-size: 2.5em;
 	a,
 	a:visited {
 		text-decoration: none;
-		color: $main;
+		color: $brand-berry;
 	}
 }
 h2 {
@@ -33,11 +33,11 @@ a:visited {
 	font-weight: bold;
 }
 a:hover {
-	color: $link-hover-color;
+	color: $brand-berry;
 	text-decoration: underline;
 }
 header {
-	background: $header;
+	background: $brand-gunmetal;
 	padding: 0px 15px;
 	text-align: center;
 	margin: 50px 0 0;
@@ -52,7 +52,7 @@ main {
 	margin: 0 auto;
 }
 time {
-	color: #898989;
+	color: $brand-grey;
 }
 .container {
 	max-width: $content-width;
@@ -85,15 +85,15 @@ aside {
 					text-decoration: none;
 					display: block;
 					padding: 15px;
-					font-family: 'Muli', sans-serif;
+					font-family: $font-playfair;
 					line-height: 20px;
 					margin-bottom: -1px;
 					box-shadow: 0;
 					&:hover,
 					&:active {
-						background: $header;
+						background: $brand-gunmetal;
 						text-decoration: none;
-						color: $main;
+						color: $brand-berry;
 					}
 				}
 			}
