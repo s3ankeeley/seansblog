@@ -15,6 +15,7 @@ $heading-font-color: #425469;
 $light: #E7EDF4;
 $header:  #1D1425;
 $brand-grey: #D7CDCC;
+$grey-border: #E0E0E0;
 $white: #FFFFFF;
 $brand-coral: #59656F;
 $brand-berry: #9C528B;
@@ -26,4 +27,9 @@ $brand-gunmetal: #1D1E2C;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+}
+
+@mixin border($size, $color) {
+	border-top: $size solid $color;
+	border-bottom: $size solid $color;
 }

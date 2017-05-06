@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	color: $font-color;
-	font-family: $font-playfair;
+	font-family: $font-raleway;
 	font-size: 1.1em;
 	line-height: 1.6;
 	-webkit-font-smoothing: antialiased;
@@ -11,7 +11,7 @@ h2,
 h3 {
 	font-weight: 600;
 	color: $heading-font-color;
-	font-family: $font-playfair;
+	font-family: $heading-font;
 	line-height: 1.5;
 }
 h1 {
@@ -45,6 +45,10 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	a:hover, a:visited, a:link, a:active {
+	    text-decoration: none;
+			cursor: pointer;
+	}
 }
 main {
 	padding: 0 15px;
@@ -52,7 +56,7 @@ main {
 	margin: 0 auto;
 }
 time {
-	color: $brand-grey;
+	color: $brand-berry;
 }
 .container {
 	max-width: $content-width;
@@ -85,7 +89,7 @@ aside {
 					text-decoration: none;
 					display: block;
 					padding: 15px;
-					font-family: $font-playfair;
+					font-family: $font-josefin;
 					line-height: 20px;
 					margin-bottom: -1px;
 					box-shadow: 0;
@@ -108,4 +112,15 @@ aside {
 footer {
 	text-align: center;
 	padding: 40px;
+}
+/* Article Styling */
+article {
+	@include border(1px, $grey-border);
+	margin-top: 50px;
+	h2 {
+		margin: 15px 0px;
+	}
+	p {
+		font-family: $font-style;
+	}
 }
