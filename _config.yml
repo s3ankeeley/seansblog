@@ -2,10 +2,10 @@
 title: A place for thoughts
 email: sean.keeley1@gmail.com
 description: A simple Jekyll static blog as a personal blog
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/seansblog" # the subpath of your site, e.g. /blog
+url: "http://github.com/s3ankeeley/seansblog" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: s3ankeeley
-github_username:  s3an
+github_username:  s3ankeeley
 
 # Build settings
 sass:
